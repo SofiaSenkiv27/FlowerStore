@@ -13,6 +13,7 @@ public class FlowerTest {
 
     @BeforeEach
     public void init() {
+        System.out.println("init if another test");
         flower = new Flower();
     }
 

@@ -13,6 +13,7 @@ public class FlowerBucketTest {
 
     @BeforeEach
     public void init() {
+        System.out.println("init of test");
         flowerBucket = new FlowerBucket();
     }
 
