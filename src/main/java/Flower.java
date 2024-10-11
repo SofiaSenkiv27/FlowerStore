@@ -1,3 +1,4 @@
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -5,6 +6,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @NoArgsConstructor
+@AllArgsConstructor
 public class Flower {
     private FlowerColor color;
     private FlowerType flowerType;
@@ -23,8 +25,8 @@ public class Flower {
         return color.getCode();
     }
 
-    public void setPrice(double price) {
-        this.price = price;
-    }
+    // public void setPrice(double price) {
+    //     this.price = price;
+    // }
 
 }
