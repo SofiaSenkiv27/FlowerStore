@@ -16,10 +16,10 @@ public class Store {
     public List<Flower> search(String color, 
     FlowerType flowerType, Double maxPrice) {
         return flowers.stream()
-                .filter(flower -> (color == null || 
-                flower.getColor().equals(color)) && (flowerType == null || 
-                flower.getFlowerType() == flowerType) && (maxPrice == null || 
-                flower.getPrice() <= maxPrice))
+                .filter(flower -> (color == null 
+                || flower.getColor().equals(color)) && (flowerType == null 
+                || flower.getFlowerType() == flowerType) && (maxPrice == null 
+                || flower.getPrice() <= maxPrice))
                 .collect(Collectors.toList());
     }
 
