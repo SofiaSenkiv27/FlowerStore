@@ -10,8 +10,8 @@ public class FlowerPack {
 
 
     public FlowerPack(Flower flower, int count) {
-        this.flower=flower;
-        this.count=count;
+        this.flower = flower;
+        this.count = count;
     }
 
     public double getPrice() {

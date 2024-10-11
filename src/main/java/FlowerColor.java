@@ -6,6 +6,6 @@ public enum FlowerColor {
     private String code;
 
     FlowerColor(String code) {
-        this.code=code;
+        this.code = code;
     }
 }

@@ -14,10 +14,10 @@ public class Flower {
     private double sepalLenght;
 
     public Flower(Flower flower) {
-        this.color=flower.color;
-        this.flowerType=flower.flowerType;
-        this.price=flower.price;
-        this.sepalLenght=flower.sepalLenght;
+        this.color = flower.color;
+        this.flowerType = flower.flowerType;
+        this.price = flower.price;
+        this.sepalLenght = flower.sepalLenght;
 
     }
 

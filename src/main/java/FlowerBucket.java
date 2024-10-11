@@ -4,7 +4,7 @@ public class FlowerBucket {
     private List<FlowerPack>flowerPacks;
 
     public FlowerBucket() {
-        this.flowerPacks=new ArrayList<>();
+        this.flowerPacks = new ArrayList<>();
     }
 
     public void add(FlowerPack flowerPack) {
