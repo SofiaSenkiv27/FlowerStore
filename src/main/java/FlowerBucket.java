@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 public class FlowerBucket {
-    private List<FlowerPack>flowerPacks;
+    private List<FlowerPack> flowerPacks;
 
     public FlowerBucket() {
         this.flowerPacks = new ArrayList<>();
